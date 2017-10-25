@@ -1,0 +1,22 @@
+{
+  "name": "xlsxtojson",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "xlsx.js",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-js-xlsx": "0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ColdCloudStudent@bitbucket.org/ColdCloudStudent/xlsxtojson.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/ColdCloudStudent/xlsxtojson#readme"
+}
