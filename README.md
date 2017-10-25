@@ -86,7 +86,7 @@ Utilities are available in the `XLSX` object and are described in the Utility Fu
   
 # Convert data into 
 
-### CSV
+#### CSV
 `sheet_to_csv` generates delimiter-separated-values output.
 ```javascript
 var to_csv = function to_csv(workbook) {
@@ -103,7 +103,7 @@ var to_csv = function to_csv(workbook) {
 };
   ```
 
-### Formulae 
+#### Formulae 
 `sheet_to_formulae` generates a list of the formulae (with value fallbacks).
   
 ```javascript
@@ -120,6 +120,8 @@ var to_csv = function to_csv(workbook) {
 		return result.join("\n");
 	};
 ```
+
+#### HTML
 
 `sheet_to_html` generates HTML output.
 
